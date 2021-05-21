@@ -48,7 +48,7 @@ Geldige waarden voor gebied zijn "Nederland" of "provincie &lt;naam&gt;" of "gem
 Bijvoorbeeld:   
 ```gebied = 'provincie Zeeland, provincie Noord-Brabant, provincie Limburg'```
 
-De opgegeven gebieden worden samengevoegd en gebruikt voor de dekking van 1 grid. Het combineren van gemeente en provincie namen mag ook
+De opgegeven gebieden worden samengevoegd en gebruikt voor de dekking van 1 grid. Het combineren van gemeente en provincie namen mag ook.
 
 Voor de gebieden worden de bestuurlijke grenzen uit de Basisregistratie Kadaster (BRK) gebruikt. Het genereren van NL Grids op basis van andere gebieden of grenzen vereist aanpassing van de code.
 
