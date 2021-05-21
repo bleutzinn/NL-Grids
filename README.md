@@ -34,7 +34,7 @@ NL Grids kent als parameters:
 - trim: als 'ja' dan worden cellen die niet overlappen met het gebied uit het grid verwijderd
 - export: 'gml' voor GML file, 'shp' voor Esri Shapefile
 
-De invoer parameters maken deel uit van de code, zie na de paragraaf Uitvoer.
+De invoer parameters maken deel uit van de code, zie het Jupyter notebook.
 
 ### Toelichting op de parameters
 
