@@ -25,9 +25,9 @@ NL Grids is geschreven in Python en beschikbaar als Jupyter notebook.
 ## Licentie
 Op NL Grids en de met NL Grids gemaakte grids is de MIT licentie van toepassing
 
-## Invoer parameters
+## Parameters
 
-NL Grids kent zes invoer parameters:
+NL Grids kent als parameters:
 - eenheid: dit is de eenheid van de oppervlakte per grid cel (m2, ha of km2)
 - oppervlakte: dit is de oppervlakte per grid cel in de opgegeven eenheid
 - gebied: dit is voor welk gebied grid cellen worden gegenereerd
@@ -53,7 +53,7 @@ De opgegeven gebieden worden samengevoegd en gebruikt voor de dekking van 1 grid
 Voor de gebieden worden de bestuurlijke grenzen uit de Basisregistratie Kadaster (BRK) gebruikt. Het genereren van NL Grids op basis van andere gebieden of grenzen vereist aanpassing van de code.
 
 ## Uitvoer
-Een grid in de vorm van vector dataset in het gespecificeerde formaat opgeslagen in de directory van dit script.
+Een grid in de vorm van een vector dataset in het gespecificeerde formaat. De dataset wordt bewaard in de directory van het Jupyter notebook.
 
 ## Copyright en contact
 Ron Wardenier, ron@rwgc.nl
