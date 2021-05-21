@@ -49,3 +49,6 @@ Voor de gebieden worden de bestuurlijke grenzen uit de Basisregistratie Kadaster
 
 ## Uitvoer
 Een grid in de vorm van vector dataset in het gespecificeerde formaat opgeslagen in de directory van dit script.
+
+## Copyright en contact
+Ron Wardenier, ron@rwgc.nl
