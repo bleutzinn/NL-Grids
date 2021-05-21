@@ -17,6 +17,9 @@ Elke cel heeft de volgende attributen:
 - De code van NL Grids gebruikt alleen het Rijksdriehoekstelsel
 - Met NL Grids gemaakte grids zijn alleen geldig binnen het geldigheidsgebied van het Rijksdriehoekstelsel
 
+## Python code
+NL Grids is geschreven in Python en beschikbaar als Jupyter notebook.
+
 ## Licentie
 Op NL Grids en de met NL Grids gemaakte grids is de MIT licentie van toepassing
 
