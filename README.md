@@ -1,3 +1,4 @@
+# NL Grids
 NL Grids genereert ruimtelijk complementaire hexagon grids gebaseerd op en geldig voor het Rijksdriehoekstelsel.
 
 Doordat alle grids hun oorsprong delen met die van het Rijksdriehoekstelsel zijn lokale kleine grids later altijd uitbreidbaar tot een groter en eventueel zelfs landsdekkend grid.
