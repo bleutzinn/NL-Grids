@@ -13,6 +13,8 @@ Elke cel heeft de volgende attributen:
 - 'q_r': de relatieve positie van een cel in het grid ten opzichte van de oorsprong cel (155000 463000); ook te gebruiken als cel id
 - 'dekopp_&lt;eenheid&gt;': de oppervlakte van de cel die overlapt met het gebied (dekking); de eenheid is onderdeel van de attribuut naam, bijvoorbeeld `dekopp_km2`
 
+![NL Grid voor Nederland met cellen van 100 km2](https://github.com/bleutzinn/NL-Grids/blob/main/nlgrid_Nederland_100km2.png)
+
 ## Restricties
 - De code van NL Grids gebruikt alleen het Rijksdriehoekstelsel
 - Met NL Grids gemaakte grids zijn alleen geldig binnen het geldigheidsgebied van het Rijksdriehoekstelsel
