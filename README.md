@@ -39,9 +39,9 @@ De invoer parameters maken deel uit van de code, zie het Jupyter notebook.
 ### Toelichting op de parameters
 
 Richtlijn voor de gebruikelijke eenheid per oppervlakte bereik:
-- tot 100 m<sup>2</sup> in vierkante meters (m2) ( [0 - 99] m2)
-- van 100 m<sup>2</sup> tot 1000 m<sup>2</sup> in hectare (ha) ( [1 - 99] ha)
-- vanaf 1000 m<sup>2</sup> in vierkante kilometers (km2) ( [1 - &infin;> km2)
+- tot 100 m<sup>2</sup> in vierkante meters (m2)
+- van 100 m<sup>2</sup> tot 1.000.000 m<sup>2</sup> in hectare (ha)
+- vanaf 1.000.000 m<sup>2</sup> in vierkante kilometers (km2)
 
 Geldige waarden voor gebied zijn "Nederland" of "provincie &lt;naam&gt;" of "gemeente &lt;naam&gt;" waarbij &lt;naam&gt; een provincie- of gemeentenaam is. Het opgeven van meerdere provincies of gemeenten kan door die met komma's gescheiden op te geven.
 
