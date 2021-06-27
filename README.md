@@ -10,8 +10,8 @@ Doordat alle grids dezelfde oorsprong hebben zijn lokale grids later altijd same
 
 ## Attribuut data
 Elke cel heeft de volgende attributen:
-- 'q_r': de relatieve positie van een cel in het grid ten opzichte van de oorsprong cel (155000 463000); ook te gebruiken als cel id
-- 'dekopp_&lt;eenheid&gt;': de oppervlakte van de cel die overlapt met het gebied (dekking); de eenheid is onderdeel van de attribuut naam, bijvoorbeeld `dekopp_km2`
+- 'dekkingpct': het percentage van de oppervlakte van de cel die overlapt met het gebied (dekking)
+- 'q_r': de relatieve positie van een cel in het grid ten opzichte van de oorsprong cel (0 0)
 
 ![NL Grid voor Nederland met cellen van 100 km2](https://github.com/bleutzinn/NL-Grids/blob/main/nlgrid_Nederland_100km2.png)
 
@@ -31,7 +31,7 @@ NL Grids kent als parameters:
 - eenheid: dit is de eenheid van de oppervlakte per grid cel (m2, ha of km2)
 - oppervlakte: dit is de oppervlakte per grid cel in de opgegeven eenheid
 - gebied: dit is voor welk gebied grid cellen worden gegenereerd
-- trim: als 'ja' dan worden cellen die niet overlappen met het gebied uit het grid verwijderd
+- intersect: als 'clip' dan worden cellen met het gebied geclipt, als 'overlay' dan worden cellen die niet overlappen met het gebied uit het grid verwijderd
 - export: 'gml' voor GML file, 'shp' voor Esri Shapefile
 
 De invoer parameters maken deel uit van de code, zie het Jupyter notebook.
