@@ -32,7 +32,7 @@ NL Grids kent als parameters:
 - oppervlakte: dit is de oppervlakte per grid cel in de opgegeven eenheid
 - gebied: dit is voor welk gebied grid cellen worden gegenereerd
 - intersect: als 'clip' dan worden cellen met het gebied geclipt, als 'overlay' dan worden cellen die niet overlappen met het gebied uit het grid verwijderd
-- export: 'gml' voor GML file, 'shp' voor Esri Shapefile
+- export: 'gpkg' voor GeoPackage, 'gml' voor GML file
 
 De invoer parameters maken deel uit van de code, zie het Jupyter notebook.
 
