@@ -50,7 +50,7 @@ Bijvoorbeeld:
 
 De opgegeven gebieden worden samengevoegd en gebruikt voor de dekking van 1 grid. Het combineren van gemeente en provincie namen mag ook.
 
-Voor de gebieden worden de bestuurlijke grenzen uit de Basisregistratie Kadaster (BRK) gebruikt. Het genereren van NL Grids op basis van andere gebieden of grenzen vereist aanpassing van de code.
+Voor de gebieden wordt de bestuurlijke indeling van Nederland in gemeenten en provincies alsmede de landsgrens gebruikt. Het genereren van NL Grids op basis van andere gebieden vereist aanpassing van de code.
 
 ## Uitvoer
 Een grid in de vorm van een vector dataset in het gespecificeerde formaat. De dataset wordt bewaard in de directory van het Jupyter notebook.
