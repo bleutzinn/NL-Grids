@@ -1,7 +1,8 @@
 # NL Grids
 NL Grids genereert ruimtelijk complementaire hexagon grids gebaseerd op en geldig voor het Rijksdriehoekstelsel.
 
-Doordat alle grids dezelfde oorsprong hebben zijn lokale grids later altijd samen te voegen en uit te breiden tot een groter en eventueel zelfs landsdekkend grid.
+Doordat alle grids dezelfde oorsprong hebben zijn lokale grids later altijd samen te voegen en uit te breiden tot een groter en eventueel zelfs landsdekkend grid.   
+Een ander voordeel is dat NL Grids met verschillende thematische data in analyses kunnen worden gebruikt. Dat kan doordat ze dezelfde grid cel indeling hebben. Een vereiste is wel dat ze dezelfde oppervlakte eenheid per cel hebben.
 
 ## Geometrie
 - De oorsprong van het grid valt samen met de oorsprong van het Rijksdriehoekstelsel
@@ -54,6 +55,11 @@ Voor de gebieden wordt de bestuurlijke indeling van Nederland in gemeenten en pr
 
 ## Uitvoer
 Een grid in de vorm van een vector dataset in het gespecificeerde formaat. De dataset wordt bewaard in de directory van het Jupyter notebook.
+
+## Ondersteuning, bugs en verbeteringen
+Als je een of meerdere grids zou willen gebruiken maar ze niet zelf kunt genereren dan wil ik dat op verzoek wel verzorgen. Neem dan even contact op.   
+In geval van problemen bij of vragen over het script kun je het beste een issue aanmaken.   
+Code verbeteringen zijn natuurlijk welkom middels een PR.
 
 ## Copyright en contact
 Ron Wardenier, ron@rwgc.nl
